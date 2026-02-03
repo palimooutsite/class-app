@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClassHub | Platform E-Learning</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="logo">ClassHub</div>
+        <div class="nav-links">
+          <a href="#kursus">Kursus</a>
+          <a href="#fitur">Fitur</a>
+          <a href="#testimoni">Testimoni</a>
+          <a href="#pricing">Harga</a>
+        </div>
+        <button class="btn btn-outline">Masuk</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="pill">Platform E-learning modern</p>
+          <h1>Upgrade skill dengan kelas online setara industri.</h1>
+          <p class="hero-subtitle">
+            Jelajahi ratusan kelas dengan kurikulum terstruktur, mentor aktif, dan proyek nyata yang siap
+            memperkuat portofoliomu.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary">Mulai belajar</button>
+            <button class="btn btn-ghost">Lihat demo kelas</button>
+          </div>
+          <div class="hero-stats" id="summary"></div>
+        </div>
+        <div class="hero-card">
+          <div class="card-header">
+            <h3>Kalender belajar minggu ini</h3>
+            <span class="tag">Live</span>
+          </div>
+          <div class="schedule">
+            <div class="schedule-item">
+              <div>
+                <p class="schedule-title">UI Research Sprint</p>
+                <p class="schedule-meta">Rabu • 19.00 WIB</p>
+              </div>
+              <button class="btn btn-outline">Gabung</button>
+            </div>
+            <div class="schedule-item">
+              <div>
+                <p class="schedule-title">Python Data Lab</p>
+                <p class="schedule-meta">Kamis • 20.00 WIB</p>
+              </div>
+              <button class="btn btn-outline">Gabung</button>
+            </div>
+            <div class="schedule-item">
+              <div>
+                <p class="schedule-title">Frontend Clinic</p>
+                <p class="schedule-meta">Sabtu • 10.00 WIB</p>
+              </div>
+              <button class="btn btn-outline">Gabung</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="kursus">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Kelas unggulan</p>
+            <h2>Program yang paling diminati minggu ini</h2>
+          </div>
+          <button class="btn btn-outline">Lihat semua kelas</button>
+        </div>
+        <div class="course-grid" id="courses"></div>
+      </section>
+
+      <section class="section alt" id="fitur">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Kenapa ClassHub?</p>
+            <h2>Belajar lebih terarah dengan pendampingan</h2>
+          </div>
+        </div>
+        <div class="feature-grid" id="features"></div>
+      </section>
+
+      <section class="section" id="testimoni">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Testimoni</p>
+            <h2>Ribuan alumni beralih karier bersama kami</h2>
+          </div>
+          <button class="btn btn-ghost">Baca kisah sukses</button>
+        </div>
+        <div class="testimonial-grid" id="testimonials"></div>
+      </section>
+
+      <section class="section pricing" id="pricing">
+        <div class="pricing-card">
+          <div>
+            <p class="eyebrow">Paket intensif</p>
+            <h2>Mulai dari Rp149.000 / kelas</h2>
+            <p class="hero-subtitle">
+              Termasuk akses komunitas, feedback proyek, dan update materi setiap kuartal.
+            </p>
+          </div>
+          <ul>
+            <li>✔️ Sertifikat digital</li>
+            <li>✔️ Mentor aktif mingguan</li>
+            <li>✔️ Template proyek siap pakai</li>
+          </ul>
+          <button class="btn btn-primary">Ambil kelas sekarang</button>
+        </div>
+        <div class="pricing-banner">
+          <h3>Tim perusahaan?</h3>
+          <p>Bangun program upskilling khusus dengan dashboard analitik.</p>
+          <button class="btn btn-outline">Hubungi kami</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <h3>ClassHub</h3>
+        <p>Platform e-learning untuk profesional masa kini.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Produk</h4>
+          <a href="#kursus">Kursus</a>
+          <a href="#pricing">Harga</a>
+        </div>
+        <div>
+          <h4>Perusahaan</h4>
+          <a href="#fitur">Tentang</a>
+          <a href="#testimoni">Testimoni</a>
+        </div>
+        <div>
+          <h4>Bantuan</h4>
+          <a href="mailto:halo@classhub.id">Kontak</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
